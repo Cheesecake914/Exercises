@@ -8,7 +8,7 @@ int main()
     int n;
     float a1;
     float d;
-
+    
     printf("Enter the initial term (a1):");
     scanf("%f", &a1);
     printf("Enter the difference in the sequence:");
