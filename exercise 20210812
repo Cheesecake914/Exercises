@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    long long sum;
+    int pow1;
+    int num;
+
+    sum = 0;
+    pow1 = 0;
+    num = 2;
+
+
+
+    for (pow1 = 0; pow1 <= 36; pow1++)
+    {
+        sum = (pow(num,pow1)) + sum;
+    }
+
+    printf("Sum = %lld\n", sum);
+    return 0;
+}
